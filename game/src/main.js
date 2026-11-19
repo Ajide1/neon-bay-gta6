@@ -1,3 +1,4 @@
+/* NEON_BAY_BUILD 2026-11-19 recorded polish */
 /**
  * Neon Bay — top-down open-world crime game
  * Static, offline, keyboard + mouse. Original setting (not Rockstar IP).
@@ -12,7 +13,7 @@ const startBtn = document.getElementById("start");
 const titleWrap = document.getElementById("titlewrap");
 
 let W = 0, H = 0, running = false, t0 = 0;
-const WORLD = 3600;
+const WORLD = 3600; // city extent
 const rnd = (a, b) => a + Math.random() * (b - a);
 
 function resize() {
